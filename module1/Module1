@@ -1,0 +1,32 @@
+[10:02 AM] Brandon Gottshall
+
+		1. What is the keyword used to check the data type of a value in JavaScript? `typeof`
+
+		2. What does the `typeof` keyword return when used with a number?
+            `100`
+		3. What does the `typeof` keyword return when used with a string?
+            `string`
+		4. What does the `typeof` keyword return when used with a boolean?
+            true or false
+		5. What does the `typeof` keyword return when used with an array?
+        `1,2,3`
+		6. What does the `typeof` keyword return when used with an object?
+        `key-value`
+		7. What does the `typeof` keyword return when used with a function?
+            reusable chunks of code with labels to identify them 
+            function greeting(){
+    console.log("Hello World!")}
+
+		8. What is the difference between `null` and `undefined` in JavaScript? null is a declaration of nothing and undefined means a value hasn't been assigned.
+
+	//	9. What does the `NaN` value represent in JavaScript?
+      //      not a number
+		//10. How can you check if a value is `NaN` in JavaScript?
+IsNaN() or Math.IsNan()
+
+```js
+typeof function() {} //`function
+
+
+
+console.log('Hello World')
