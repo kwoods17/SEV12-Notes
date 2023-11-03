@@ -1,0 +1,7 @@
+const familyOfFive ={
+    Dad: "Phil",
+    Mom: "Pat",
+    Son: "Jay",
+    Daughter: "Jackie",
+    Cat: "Pasha"
+}
