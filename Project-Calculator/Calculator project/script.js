@@ -6,7 +6,7 @@ let result = 0;
 let numArray = [];
 let secondNumArray = [];
 // these all store the values of the different types of input
-
+console.log("test")
 let display = document.getElementById("display");
 
 function getNumber(num) {
