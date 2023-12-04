@@ -1,14 +1,14 @@
 # Basic Web Calculator
  
-This is a project I'm building in the Nebula Academy SEV12 Program. This calculator is designed as a watch, and has basic functionality with an added security feature.
+This is a project I'm building in the Nebula Academy SEV12 Program. This calculator has basic functionality featuring added animation.
  
-## Wireframe https://whimsical.com/calculator-wireframe-4mdSdtBFDamQtkwVQvkRQV
+## Wireframe https://whimsical.com/kenya-s-updated-calculator-wireframe-XX7Gw9knFMcgjoaH6AxH4v
  
 ## Features Basic calculator functions: add, subtract, multiply, and divide.
  
 ### MVP (Minimum Viable Product) 
  
-- [ ] Post to a Public Repo
+- [ x] Post to a Public Repo
 - [ x] Functions
    - [ x] Add
    - [ x] Subtract
@@ -21,9 +21,8 @@ This is a project I'm building in the Nebula Academy SEV12 Program. This calcula
  
 ### PMVP (Post Minimum Viable Product)
   • clear button
-  • +/- signs button
-  • % - button to calculate percentage
-  • an alarm button - it turns on 2 seconds after being depressed and truns off with a 2-digit code.
+  • gradient styling
+  • animated heading
  
 ## Installation
  

@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: blue;
+    border: dashed;
+    border-radius: 80%;
+    animation-name: slideInLeft;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+}
+
+body {
+    display: flex;
+    background-image: radial-gradient(silver, pink, purple, blue);
+    font-family: cursive;
+}
+
+.container {
+    margin: 10vh auto;
+    width: 500px;
+    padding: 2rem;
+    text-align: center;
+    /* 	border-radius: 80px ;
+    border: dashed blue;  */
+}
+
+input {
+    width: 300px;
+    padding: 0.5rem 2rem;
+    font-size: 3rem;
+    border-radius: 25px 45px 25px 45px;
+    text-align: right;
+    background-color: #383838;
+    color: #face;
+}
+
+.buttons {
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    padding: 40px;
+    font-size: 20px;
+    margin: 0.5rem;
+    max-width: 10px;
+    max-height: 80px;
+    text-align: center;
+    border-radius: 25% 10%;
+    font-weight: 100;
+    background-color: #383838;
+    color: #face;
+}
