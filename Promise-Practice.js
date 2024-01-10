@@ -38,15 +38,14 @@ let madeDinner = new Promise (function(resolve, reject) {
 
 // 3.   Using the prior example use .then and .catch to handle responses and rejections
 
-//let dinnerPromise = madeDinner(true);
-dinnerPromise
-    .then(success => console.log(success))
-    .catch(reason => console.log(reason))
-    .finally(() => console.log("Dinner was delicious!"))
-
+madeDinner.then(result => {
+    14  console.log(result); // logs "I made dinner." after 5 seconds
+    15}).catch(error => {
+    16  console.log(error); // logs "I forgot to make dinner." if dinnerPromise is false
+    17});
 // 4.   What does a promise resolve to?
 
-
+//A completed operation or in this case an error.
 
 // 5. What is the output of the following code?
 
